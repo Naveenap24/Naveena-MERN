@@ -49,5 +49,5 @@ console.log (++c);
 console.log ("ternary operator");
 var a=10;
 var b=20;
-var result = (a>b)?"a is greater";\\var variable name = (condition)? true value : false value;
+var result = (a>b)?"a is greater":"b is greater";
 console.log(result);
