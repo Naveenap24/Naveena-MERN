@@ -1,4 +1,5 @@
 //arthimetic
+console.log ("arthimetic operator")
 var a=10;
 var b=20;
 console.log (a+b);//addition
@@ -35,3 +36,18 @@ console.log (a>0 && b<0);
 console.log (a<0 || b<0);
 console.log (!(a>0));
 console.log (!(a<0));
+
+//unary operator
+console.log("unary operator")
+var c=30;
+console.log (c++);
+console.log (c--);
+console.log (--c);
+console.log (++c);
+
+//ternary operator
+console.log ("ternary operator");
+var a=10;
+var b=20;
+var result = (a>b)?"a is greater";\\var variable name = (condition)? true value : false value;
+console.log(result);
