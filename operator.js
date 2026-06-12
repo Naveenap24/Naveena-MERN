@@ -15,3 +15,13 @@ console.log(c-=10);
 console.log(c*=10);
 console.log(c/=10);
 
+//comparison operator
+console.log("comparison operator")
+var a=10;
+var b=20;
+console.log (a==b);
+console.log (a!=b);
+console.log (a>b);
+console.log (a<b);
+console.log (a<=b);
+console.log (a>=b);
