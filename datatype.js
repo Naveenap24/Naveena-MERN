@@ -1,54 +1,53 @@
-console.log ("Welcome to primitive data types")
+console.log("Welcome to primitive data types");
 
-//numbers
-console.log ("DT numbers");
-var age =30;
-console.log (age);
+// Numbers
+console.log("DT Numbers");
+var age = 30;
+console.log(age);
 
-//string
-console.log ("DT strings");
-var name = "john";
-console.log (name);
+// Strings
+console.log("DT Strings");
+var name = "John";
+console.log(name);
 
-//booleans
+// Booleans
 console.log("DT Booleans");
-var isstudent =true;
-console.log (isstudent);
+var isStudent = true;
+console.log(isStudent);
 
-//null
-console.log ("DT Null");
+// Null
+console.log("DT Null");
 var emptyValue = null;
 console.log(emptyValue);
 
-//undefined
-console.log ("DT undefined");
+// Undefined
+console.log("DT Undefined");
 var undefinedValue;
-console.log(undefinedValues);
+console.log(undefinedValue);
 
-//symbols
-console.log ("DT symbols");
-var symbolValue =symbol ("symbol");
+// Symbols
+console.log("DT Symbols");
+var symbolValue = Symbol("symbol");
 console.log(symbolValue);
 
-//BigInt
+// BigInt
 console.log("DT BigInt");
-var BigInt=12345678901234567890123456789012467899932335475877382652424354747574635353535335
-console.log(BigIntValue);
+var bigIntValue = 12345678901234567890123456789012467899932335475877382652424354747574635353535335n;
+console.log(bigIntValue);
 
-console.log("welcome to non primitive data types")
+console.log("Welcome to non-primitive data types");
 
-//objects
-console.log ("DT objects");
+// Objects
+console.log("DT Objects");
 var person = {
-    name:"naveena",
-    age =30;
+    name: "Naveena",
+    age: 30
 };
 console.log(person);
 console.log(person.age);
 
-//arrays
-console.log("DT array");
-var fruits = ["kiwi","fig","pine","apple","orange"];
+// Arrays
+console.log("DT Array");
+var fruits = ["kiwi", "fig", "pineapple", "orange"];
 console.log(fruits.length);
-console.log(fruits[4]);
-
+console.log(fruits[3]);
