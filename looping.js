@@ -25,3 +25,12 @@ do {
     console.log("2 * " + j + " = " + (2 * j));
     j++;
 } while (j <= 10);
+
+// do while
+
+let count =6
+do{
+    console.log(count);
+    count++;
+}while(count <= 5)
+    console.log("Outside do...while");
